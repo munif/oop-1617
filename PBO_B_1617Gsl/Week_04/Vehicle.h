@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include <iostream>
 
 using namespace std;
 
@@ -13,6 +14,7 @@ public:
 	string color;
 
 	Vehicle();
+	Vehicle(string color);
 	~Vehicle();
 };
 

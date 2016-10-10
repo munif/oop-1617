@@ -1,9 +1,13 @@
 #pragma once
 #include "Wheel.h"
 #include "Engine.h"
+#include "Vehicle.h"
+#include <iostream>
+
+using namespace std;
 
 // Base class
-class Car
+class Car : public Vehicle
 {
 public:
 	double maxCapacity;
@@ -13,6 +17,7 @@ public:
 	Wheel wheel[4];
 	string licenseNumber;
 	Car();
+	Car(string color);
 	~Car();
 };
 

@@ -10,9 +10,10 @@ using namespace std;
 class SportCar : public Car
 {
 public:
-
 	NitroEngine nitroEngine;
 	SportCar();
+	SportCar(string color);
+	SportCar(string color, string licenseNumber);
 	~SportCar();
 };
 
