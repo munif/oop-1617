@@ -18,6 +18,7 @@ public:
 	string licenseNumber;
 	Car();
 	Car(string color);
+	void move(double speed);
 	~Car();
 };
 

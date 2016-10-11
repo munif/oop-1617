@@ -21,6 +21,12 @@ SportCar::SportCar(string color, string licenseNumber) : Car(color)
 	this->licenseNumber = licenseNumber;
 }
 
+
+void SportCar::move(double speed)
+{
+	cout << "move() from SportCar." << endl;
+}
+
 SportCar::~SportCar()
 {
 	cout << "Destructing SportCar()" << endl;

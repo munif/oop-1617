@@ -14,6 +14,11 @@ Car::Car(string color) : Vehicle(color)
 	this->color = color;
 }
 
+void Car::move(double speed)
+{
+	cout << "move() from Car." << endl;
+}
+
 
 Car::~Car()
 {

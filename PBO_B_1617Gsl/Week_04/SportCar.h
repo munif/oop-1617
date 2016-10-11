@@ -14,6 +14,7 @@ public:
 	SportCar();
 	SportCar(string color);
 	SportCar(string color, string licenseNumber);
+	void move(double speed);
 	~SportCar();
 };
 

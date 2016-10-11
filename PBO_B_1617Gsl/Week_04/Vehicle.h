@@ -12,9 +12,15 @@ public:
 	double maxSpeed;
 	double currentSpeed;	
 	string color;
-
+	
+	// Default constructor
 	Vehicle();
+
+	// Overloading dari default constructor
 	Vehicle(string color);
+	
+	void accelerate(double speed);
+	void accelerate(double speed, double direction);
 	~Vehicle();
 };
 

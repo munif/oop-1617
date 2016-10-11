@@ -14,6 +14,14 @@ Vehicle::Vehicle(string color)
 	this->color = color;
 }
 
+void Vehicle::accelerate(double speed)
+{
+}
+
+void Vehicle::accelerate(double speed, double direction)
+{
+}
+
 
 Vehicle::~Vehicle()
 {
